@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \
 		curl \
 		unzip \
+		python \
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.6.3
